@@ -58,7 +58,7 @@ from datetime import datetime
 class Config:
     FRAMEWORK_VERSION = "8.0.0"  #版本号
     
-    TOKEN = "369258asasASAS?!"  #token密钥
+    TOKEN = "123456789"  #token密钥
     
     API_BASE_URL = "http://localhost:3000"
     
@@ -74,8 +74,8 @@ class Config:
     PLUGIN_EVENT_TIMEOUT = 120    #插件超时时间
     
     
-    BOT_QQ = 3911335816   #机器人qq号
-    ADMIN_QQ = 3342514896   #主人qq号
+    BOT_QQ = 123456789   #机器人qq号
+    ADMIN_QQ = 123456789   #主人qq号
     ENABLE_DEBUG = False   #调试模式，非开发者人员勿开(后果自负，如果开启)
     
     HOT_RELOAD = True   #热重载开关
@@ -86,11 +86,11 @@ class Config:
     AUTO_INSTALL_MODULES = True   #模块补全开关
     MODULE_INSTALL_TIMEOUT = 120  #超时时间(正常情况下不需要动)
     
-    STARTUP_REJECT_EVENTS = False   #启动期拒绝接收事件开关
+    STARTUP_REJECT_EVENTS = True   #启动期拒绝接收事件开关
     STARTUP_REJECT_DURATION = 20   #拒绝时间(默认即可)
     
-    ENABLE_REQUEST_DEDUPLICATION = False   #api信息去重开关
-    ENABLE_EVENT_DEDUPLICATION = False   #事件去重开关
+    ENABLE_REQUEST_DEDUPLICATION = True   #api信息去重开关
+    ENABLE_EVENT_DEDUPLICATION = True   #事件去重开关
     REQUEST_CLEANUP_INTERVAL = 30
     REQUEST_EXPIRE_TIME = 360
     REQUEST_WAIT_TIMEOUT = 5
