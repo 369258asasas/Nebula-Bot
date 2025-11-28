@@ -89,6 +89,10 @@ logs_dir = os.path.join(base_dir, 'logs')
 if not os.path.exists(logs_dir):
     os.makedirs(logs_dir)
 
+plugins_dir = os.path.join(base_dir, 'plugins')
+if not os.path.exists(plugins_dir):
+    os.makedirs(plugins_dir)
+    
 LOG_FILENAME = os.path.join(logs_dir, "bot_server.log")
 API_LOG_FILENAME = os.path.join(logs_dir, "bot_api.log")
 
